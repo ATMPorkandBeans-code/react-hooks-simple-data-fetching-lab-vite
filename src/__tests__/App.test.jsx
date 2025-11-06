@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
-import App from '../components/App';
+import App from '../App';
 
 const mockDogResponses = [{
   message: 'https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg',
